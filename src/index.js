@@ -28,6 +28,11 @@ Amplify.configure({
         endpoint: config.apiGateway.URL,
         region: config.apiGateway.REGION
       },
+      {
+        name: "reviewer-service",
+        endpoint: config.apiGateway_2.URL,
+        region: config.apiGateway_2.REGION
+      }
     ]
   }
 });

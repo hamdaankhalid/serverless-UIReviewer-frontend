@@ -8,6 +8,10 @@ const config = {
       REGION: "us-east-1",
       URL: "https://2c3sbl8w5l.execute-api.us-east-1.amazonaws.com/prod",
     },
+    apiGateway_2: {
+      REGION: "us-east-1",
+      URL: "https://g74lmrco7g.execute-api.us-east-1.amazonaws.com/prod",
+    },
     cognito: {
       REGION: "us-east-1",
       USER_POOL_ID: "us-east-1_xs1tKmKY9",

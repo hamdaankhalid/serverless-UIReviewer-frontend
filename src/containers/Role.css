@@ -1,0 +1,8 @@
+@media all and (min-width: 480px) {
+    .Role {
+      padding-top: 18%;  
+      margin:  auto;
+      max-width: 320px;
+    }
+
+  }

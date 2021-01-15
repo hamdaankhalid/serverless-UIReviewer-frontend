@@ -6,6 +6,9 @@ import Login from "./containers/Login"
 import Signup from "./containers/Signup";
 import NewUi from "./containers/NewUi";
 import Ui from "./containers/Ui";
+import Role from "./containers/Role";
+import Review from "./containers/Review";
+import NewReview from "./containers/NewReview";
 
 export default function Routes() {
   return (
@@ -24,6 +27,15 @@ export default function Routes() {
       </Route>
       <Route exact path="/ui/:id">
         <Ui />
+      </Route>
+      <Route exact path="/role">
+        <Role />
+      </Route>
+      <Route exact path="/review">
+        <Review />
+      </Route>
+      <Route exact path="/review/:id">
+        <NewReview />
       </Route>
       {/* Finally, catch all unmatched routes */}
       <Route>
